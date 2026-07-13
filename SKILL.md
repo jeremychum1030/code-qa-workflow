@@ -62,6 +62,21 @@ version: 2.0.0
 | 類型錯誤 | `python-debugpy` |
 | Import 錯誤 | `python-debugpy` |
 
+### C/C++ / 原生
+| 問題 | Skill |
+|------|-------|
+| 崩潰調試 | `cli-anything-lldb` |
+| GPU 調試 | `cli-anything-nsight-graphics` |
+| 渲染調試 | `cli-anything-renderdoc` |
+| 日誌分析 | `cli-anything-nslogger` |
+| Web 調試 | `cli-anything-browser`
+
+### 通用
+| 工具 | Skill |
+|------|-------|
+| 雲端分析 | `cli-anything-cloudanalyzer`
+| 終端控制 | `cli-anything-iterm2-ctl`
+
 ---
 
 ## Step 2: 風格審查
