@@ -1,7 +1,7 @@
 ---
 name: code-qa-workflow
 description: 代碼品質保證工作鏈 v2 — 7步全覆蓋：語法→風格→效能→安全→無障礙→架構審查→重構驗收。新增 Matt Pocock 審查法、MengTo 效能分析、多框架支援。
-version: 2.0.0
+version: 2.2.0
 ---
 
 # 代碼品質保證工作鏈 v2
@@ -90,6 +90,9 @@ version: 2.0.0
 | `grill-me` | 自我拷問 — 讓 AI 挑戰你的代碼決策 |
 | `grilling` | 通用拷問技術 — 找出隱藏問題 |
 | `grill-with-docs` | 用文檔反向審查代碼正確實現 |
+| `grok-code-review` | xAI 代碼審查流程 |
+| `grok-best-of-n` | 多方案擇優 |
+| `grok-check-work` | 工作完成驗證 |
 | `improve-codebase-architecture` | 架構級別改進建議 |
 | `to-tickets` | Bug → 工單轉化 |
 | `request-refactor-plan` | 請求重構計劃 |
@@ -234,7 +237,7 @@ version: 2.0.0
 
 ## Step 7: 重構與驗收 🆕
 
-**載入 Skills:** `request-refactor-plan` `to-tickets` `verification-before-completion` `qa` `ai-regression-testing`
+**載入 Skills:** `request-refactor-plan` `to-tickets` `verification-before-completion` `qa` `ai-regression-testing` `verify-changes`
 
 ### 🔄 重構流程
 | 步驟 | Skill |
